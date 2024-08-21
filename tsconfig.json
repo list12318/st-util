@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "lib",
+        "noImplicitAny": true,
+        "sourceMap": true,  
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": [
+            "esnext",
+            "dom",
+            "scripthost",
+            "dom.iterable"
+        ],
+        "jsx": "react",
+        "allowJs": false,
+        "declaration": true,
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "resolveJsonModule": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+}
